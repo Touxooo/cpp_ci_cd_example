@@ -1,11 +1,5 @@
 {
   "name": "main",
   "version-string": "latest",
-  "dependencies": [
-    {
-      "name": "qt5-base",
-      "version>=": "5.15.2#20"
-    },
-    "sfml"
-  ]
+  "dependencies": ["qt5-base", "sfml"]
 }
