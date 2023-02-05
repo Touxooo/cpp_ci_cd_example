@@ -2,8 +2,10 @@
   "name": "main",
   "version-string": "latest",
   "dependencies": [
-    "fmt",
-    "boost-config",
-    "sqlite3"
+    {
+      "name": "qt5-base",
+      "version>=": "5.15.2#20"
+    },
+    "sfml"
   ]
 }

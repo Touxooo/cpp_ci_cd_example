@@ -1,12 +1,12 @@
 // test.cpp
-#include <sqlite3.h>
+#include <QtCore>
 #include <stdio.h>
-#include <fmt/core.h>
 
 // main function!
 int main()
 {
-    fmt::print("test!\n");
-    printf("%s\n", sqlite3_libversion());
+    printf("test!\n");
+    QCoreApplication a(argc, argv);
+    
     return 0;
 }
